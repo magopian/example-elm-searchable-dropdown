@@ -94,7 +94,7 @@ the model. The view gets re-rendered whenever the model changes.
 > We emit the events from the views in response to a click event handler.
 >
 > Note that the type signatures for the view functions changed from `Html
-a` to `Html Maybe`. That's because the views are now emitting `Msg`
+a` to `Html Msg`. That's because the views are now emitting `Msg`
 events.
 
 * [Commit](https://github.com/JoelQ/example-elm-searchable-dropdown/commit/ece755b627b4d64a517ddd14e496923e634a7d8c)
